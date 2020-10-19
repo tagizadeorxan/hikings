@@ -4,10 +4,10 @@ const mysql = require('mysql');
 
 
 const db = mysql.createPool({
-    host: "localhost",
-    user: "root",
-    password: "password",
-    database: 'hiking'
+    host: "ryfqldzbliwmq6g5.chr7pe7iynqr.eu-west-1.rds.amazonaws.com",
+    user: "u14nl75g7sxejy2f",
+    password: "a7tyldmuj5bnjlt2",
+    database: 'vdyvqtrgyk5nxyby'
 });
 
 router.get('/hikings', (req, res) => {
