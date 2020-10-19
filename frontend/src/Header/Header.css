@@ -1,0 +1,19 @@
+header img {
+  width: 80%;
+  height: 200px;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+
+.App-logo {
+    width: 150px;
+    margin-left: 20%;
+}

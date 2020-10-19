@@ -1,0 +1,28 @@
+.trails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.each-trail {
+    flex-basis:25%;
+    text-align: center;
+    height: 250px;
+    
+}
+
+.each-trail-name {
+    text-decoration: none;
+    color:black;
+ 
+}
+
+.each-trail-name div {
+ height: 40px;
+ 
+}
+
+.each-trail-name img {
+    vertical-align: middle;
+}
