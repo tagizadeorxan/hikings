@@ -15,6 +15,6 @@ app.use(cors());
 app.use('/api/data', dataRoute);
 
 
-app.listen(8080, () => {
-    console.log("running on port 3000")
+app.listen(process.env.PORT || 8080, () => {
+    console.log("running on port 8080")
 })
