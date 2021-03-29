@@ -27,6 +27,15 @@ router.get('/hikings/:id', (req, res) => {
     })
 })
 
+router.get('/hiking/videos',(req,res)=>{
+    let sql = 'SELECT * FROM videos'
+    db.query(sql, (err, result) => {
+        console.log(result)
+        if (err) throw err
+        res.json(result)
+    })
+})
+
 
 
 
